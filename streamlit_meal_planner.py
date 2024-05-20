@@ -12,7 +12,7 @@ ANTHROPIC_API_KEY = st.secrets["anthropic_apikey"]
 OPEN_AI_API_KEY = st.secrets["openai_apikey"]
 # ANYSCALE_API = st.secrets["anyscale_apikey"]
 
-openai.api_key = "sk-proj-J0W0vhEN9xmlZdr76FvZT3BlbkFJnEsHfwwXDy4UHVpCqjBP"
+
 
 
 anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
